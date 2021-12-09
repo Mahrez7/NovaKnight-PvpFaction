@@ -181,6 +181,7 @@ main{
     color: #429ae7;
     align-self: center;
     text-decoration: bold;
+    font-family: Ubuntu;
 }
 
 .store{
@@ -203,9 +204,26 @@ main{
     justify-content: space-around;
     padding: 8px;
     cursor: pointer;
+    background-color: #041a2e;
 }
 
 .item:hover{
     box-shadow: #2196f3 0 10px 20px;
     margin-bottom: 20px;
+}
+
+.item h3{
+    font-family: Ubuntu;
+}
+
+.price{
+    background-color: #2196f3;
+    color: #041a2e;
+    display: flex;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 25px;
 }
